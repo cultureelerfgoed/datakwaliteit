@@ -1,0 +1,6 @@
+id;provincie_naam;provincie_code;gemeente_naam;gemeente_code;gemeente_email;gemeente_website;getal;datum
+1;Gelderland;PV25;Arnhem;GM0202;info@arnhem.nl;https://www.arnhem.nl;50;2026-01-01
+2;Drenthe;PV22; Assen;GM0106;info@assen.nl;;20;2020-03-15
+3;Zuid-Holland;PV28;s-Gravenhage;GM0518;info@@denhaag.nl;https://www.denhaag.nl;10;1989-10-01
+4;Groningen;PV20;Groningen;0014;info@groningen.nl;https://www.groningen.nl;1000;31-11-1970
+5;Overijssel;PV23;Zwolle;GM0193;info@zwolle.nl;https://www.zwolle.nl;3;2020-03-15

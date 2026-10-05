@@ -1,0 +1,7 @@
+id;provincie_naam;provincie_code;gemeente_naam;gemeente_code;gemeente_email;gemeente_website;aantal_1;aantal_2;datum_begin;datum_einde;beschrijving;lege_kolom
+1;Gelderland;PV25;Arnhem;0202;info@arnhem.nl;https://www.arnhem.nl;50;100;1-1-2026;1-12-2020;<p>bla bla</p>;
+2;Drenthe;PV22; Assen;GM0106;info@assen.nl;;20;80;15-3-2020;1-10-2026;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley.;
+3;Zuid-Holland;PV28;Den Haag;GM0518;info@@denhaag.nl;https://www.denhaag.nl;10;30;1-10-1989;1-1-2020;making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for;
+4;Groningen;PV20;Groningen;GM0014;info@groningen.nl;https://www.groningen.nl;1000;1001;30-11-1970;15-3-2023;Where can I get some?;
+5;Overijssel;PV23;Zwolle;GM0193;info@zwolle.nl;https://www.zwolle.nl;3;15;15-3-2020;15-3-2020;200;
+4;Groningen;PV20;Groningen;GM0014;info@groningen.nl;https://www.groningen.nl;1000;750;30-11-1970;15-3-2023;Where can I get some?;
