@@ -1,4 +1,4 @@
-# datakwaliteit pipline
+# Datakwaliteit pipeline
 
 Dit is een demo opstelling waarmee datakwaliteit middels een datapipeline gemeten wordt. De coden wordt ontwikkeld in Jupyter notebooks.
 
@@ -8,7 +8,7 @@ Het configureren van de pipeline is technisch laagdrempelig gehouden. Middels pa
 
 Voor het maken van nieuwe functies is wel Python en SQL kennis vereisd.
 
-## notebooks
+## Notebooks
 
 In de demo opstelling worden vier notebooks gebruikt:
 
@@ -35,7 +35,7 @@ In de demo opstelling worden vier notebooks gebruikt:
 - start_ducklake_ui.ipynb
   - het starten en stoppen van een userinterface
 
-## test data
+## Test data
 
 De test data staat in de folder `brondata`. Het betreft hier een fictieve dataset die de demonstratie van deze oplossing ondersteunt.
 
@@ -49,7 +49,7 @@ De test data staat in de folder `brondata`. Het betreft hier een fictieve datase
   - een referentie databestand
 - kwaliteit_log_template.csv
 
-## catalogi, shema's en tabellen
+## Catalogi, shema's en tabellen
 
 Met het notebook `laad_data.ipynb` worden catalogi, shema's en tabellen aangemaakt.
 
@@ -85,11 +85,11 @@ Met het notebook `laad_data.ipynb` worden catalogi, shema's en tabellen aangemaa
   - brons_p.datakwaliteit.log
     - een template tabel die gevuld worden met de data uit `./brondata/kwaliteit_log_template.csv`
 
-## datakwaliteit meetresultaten
+## Datakwaliteit meetresultaten
 
 Van een kwaliteitsmeting wordt het resultaat weggeschereven in de `kwaliteit log` tabel. Tevens worden gevonden onregelmatigheden wegegschreven in csv bestanden die in de folder `datakwaliteit_meetwaarden` worden opgeslagen.
 
-## user interface
+## User interface
 
 DuckLake heeft de mogelijkheid om het lakehouse in een grafische omgeving te ontsluiten. Deze user infterface (UI) opent in de webbrowser.
 Hiervoor wordt wordt gebruik gemaalt van de [UI Extension](https://duckdb.org/docs/lts/core_extensions/ui) van DuckDB. Het notebook `start_ducklake_ui.ipynb` bevat de code om deze UI te openen en weer te sluiten.
@@ -98,6 +98,6 @@ Hiervoor wordt wordt gebruik gemaalt van de [UI Extension](https://duckdb.org/do
 
 Binnen het notebook `datakwaliteit_pipeline.brons_p.demo_dataset.ipynb` wordt een SQL statment opgebouwd uit parameters in een f-string. In theorie zouden deze parameters kwaadaardige code in een SQL statement kunnen laden. Hiervoor is gekozen omdat nog niet gekozen is voor een definitieve SQL-engine. Zodra deze keuze wel gemaakt is, kan een specifieke oplossing gekozen worden. De omgeving waarbinnen de code draait is voldoende afgescherm om SQL injecttion te voorkomen.
 
-## multi-user oplossing
+## Multi-user oplossing
 
 Door gebruik te maken van een centrale Postgres database en een centraal S3 compitible opslag systeem, zou deze oplossing ook multi-user gemaakt kunnen worden. Dit is iets wat nog getest moet worden.
