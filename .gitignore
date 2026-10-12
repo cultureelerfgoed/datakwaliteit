@@ -218,3 +218,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Ducklake
+*.ducklake
+*.ducklake.wal
+
+# data
+datakwaliteit_meetwaarden/
